@@ -19,7 +19,7 @@ export function EventCard({ event }: EventCardProps) {
   }
 
   return (
-    <article className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col">
+    <article className="group bg-white rounded-2xl overflow-hidden shadow-warm hover:shadow-warm-lg transition-all duration-300 hover:-translate-y-1 flex flex-col">
       <div className="relative overflow-hidden h-48">
         <img
           src={event.image}

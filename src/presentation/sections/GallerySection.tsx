@@ -45,7 +45,7 @@ export function GallerySection() {
   }
 
   return (
-    <section id="gallery" className="py-20 bg-white">
+    <section id="gallery" className="py-20 bg-warm-100">
       <div className="container mx-auto px-4">
         <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <SectionTitle

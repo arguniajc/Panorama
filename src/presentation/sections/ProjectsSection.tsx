@@ -10,7 +10,7 @@ export function ProjectsSection() {
   const { ref, isVisible } = useScrollAnimation()
 
   return (
-    <section id="projects" className="py-20 bg-gray-50">
+    <section id="projects" className="py-20 bg-warm-50">
       <div className="container mx-auto px-4">
         <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <SectionTitle

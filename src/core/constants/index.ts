@@ -52,16 +52,16 @@ export const CATEGORY_LABELS: Record<string, string> = {
 }
 
 export const CATEGORY_COLORS: Record<string, string> = {
-  comunidad: 'bg-blue-100 text-blue-700',
-  salud: 'bg-green-100 text-green-700',
-  deportes: 'bg-orange-100 text-orange-700',
-  infraestructura: 'bg-gray-100 text-gray-700',
-  cultura: 'bg-purple-100 text-purple-700',
-  seguridad: 'bg-red-100 text-red-700',
-  asamblea: 'bg-primary-100 text-primary-700',
-  cultural: 'bg-purple-100 text-purple-700',
-  deportivo: 'bg-orange-100 text-orange-700',
-  ambiental: 'bg-secondary-100 text-secondary-700',
-  social: 'bg-yellow-100 text-yellow-700',
-  formacion: 'bg-indigo-100 text-indigo-700',
+  comunidad:       'bg-accent-100 text-secondary-700',
+  salud:           'bg-secondary-100 text-secondary-700',
+  deportes:        'bg-primary-100 text-primary-700',
+  infraestructura: 'bg-warm-100 text-primary-800',
+  cultura:         'bg-accent-100 text-accent-600',
+  seguridad:       'bg-red-100 text-red-700',
+  asamblea:        'bg-primary-100 text-primary-700',
+  cultural:        'bg-accent-100 text-accent-600',
+  deportivo:       'bg-primary-100 text-primary-700',
+  ambiental:       'bg-secondary-100 text-secondary-700',
+  social:          'bg-accent-100 text-secondary-700',
+  formacion:       'bg-warm-200 text-primary-800',
 }

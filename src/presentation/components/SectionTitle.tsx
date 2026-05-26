@@ -10,7 +10,7 @@ export function SectionTitle({ label, title, subtitle, light = false, centered =
   return (
     <div className={`mb-12 ${centered ? 'text-center' : ''}`}>
       {label && (
-        <span className="inline-block px-4 py-1 rounded-full text-sm font-semibold tracking-widest uppercase mb-3 bg-accent-DEFAULT/10 text-accent-600">
+        <span className="inline-block px-4 py-1 rounded-full text-sm font-semibold tracking-widest uppercase mb-3 bg-secondary-100 text-secondary-700">
           {label}
         </span>
       )}

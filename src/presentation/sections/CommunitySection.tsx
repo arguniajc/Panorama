@@ -11,7 +11,7 @@ export function CommunitySection() {
   const { ref, isVisible } = useScrollAnimation()
 
   return (
-    <section id="community" className="py-20 bg-primary-900">
+    <section id="community" className="py-20 bg-primary-900" style={{background: 'linear-gradient(135deg, #540D02 0%, #A0300E 60%, #7A1E07 100%)'}}>
       <div className="container mx-auto px-4">
         <div ref={ref} className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <SectionTitle
