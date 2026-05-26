@@ -11,7 +11,7 @@ interface NewsCardProps {
 export function NewsCard({ news, featured = false }: NewsCardProps) {
   return (
     <article
-      className={`group bg-white rounded-2xl overflow-hidden shadow-warm hover:shadow-warm-lg transition-all duration-300 hover:-translate-y-1 flex flex-col ${
+      className={`group bg-white rounded-2xl overflow-hidden shadow-ocean hover:shadow-ocean-lg transition-all duration-300 hover:-translate-y-1 flex flex-col ${
         featured ? 'md:flex-row' : ''
       }`}
     >

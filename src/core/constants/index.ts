@@ -55,7 +55,7 @@ export const CATEGORY_COLORS: Record<string, string> = {
   comunidad:       'bg-accent-100 text-secondary-700',
   salud:           'bg-secondary-100 text-secondary-700',
   deportes:        'bg-primary-100 text-primary-700',
-  infraestructura: 'bg-warm-100 text-primary-800',
+  infraestructura: 'bg-sand-200 text-primary-800',
   cultura:         'bg-accent-100 text-accent-600',
   seguridad:       'bg-red-100 text-red-700',
   asamblea:        'bg-primary-100 text-primary-700',
@@ -63,5 +63,5 @@ export const CATEGORY_COLORS: Record<string, string> = {
   deportivo:       'bg-primary-100 text-primary-700',
   ambiental:       'bg-secondary-100 text-secondary-700',
   social:          'bg-accent-100 text-secondary-700',
-  formacion:       'bg-warm-200 text-primary-800',
+  formacion:       'bg-sand-300 text-primary-800',
 }

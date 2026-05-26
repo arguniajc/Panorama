@@ -9,7 +9,7 @@ export function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-warm-50/97 backdrop-blur-md shadow-warm py-2'
+          ? 'bg-sand-50/97 backdrop-blur-md shadow-ocean py-2'
           : 'bg-transparent py-4'
       }`}
     >
@@ -77,7 +77,7 @@ export function Navbar() {
           menuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
-        <div className="bg-warm-50/98 backdrop-blur-md border-t border-warm-200 px-4 py-4 space-y-1">
+        <div className="bg-sand-50/98 backdrop-blur-md border-t border-sand-200 px-4 py-4 space-y-1">
           {NAV_LINKS.map((link) => (
             <button
               key={link.href}

@@ -23,7 +23,7 @@ export function MemberCard({ member }: MemberCardProps) {
   }
 
   return (
-    <article className="group bg-white rounded-2xl overflow-hidden shadow-warm hover:shadow-warm-lg transition-all duration-300 hover:-translate-y-1 text-center">
+    <article className="group bg-white rounded-2xl overflow-hidden shadow-ocean hover:shadow-ocean-lg transition-all duration-300 hover:-translate-y-1 text-center">
       <div className="relative">
         <div className="h-32 bg-gradient-to-br from-primary-600 to-primary-800" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2">
