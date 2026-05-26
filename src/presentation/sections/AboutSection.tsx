@@ -36,24 +36,28 @@ export function AboutSection() {
           >
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1568632234161-4e8f86cf9da4?w=600&q=80"
+                src="https://images.unsplash.com/photo-1568632234161-4e8f86cf9da4?w=480&q=72&fm=webp&auto=format"
                 alt="Vista del barrio de ladera"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
+                loading="lazy"
               />
               <img
-                src="https://images.unsplash.com/photo-1762379972556-92fe6dbb4c10?w=600&q=80"
-                alt="Casas coloridas en la ladera"
+                src="https://images.unsplash.com/photo-1536308037887-165852797016?w=480&q=72&fm=webp&auto=format"
+                alt="Casas coloridas colombianas"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover mt-8"
+                loading="lazy"
               />
               <img
-                src="https://images.unsplash.com/photo-1520501247332-6fb052b72414?w=600&q=80"
-                alt="Calles del barrio"
+                src="https://images.unsplash.com/photo-1520501247332-6fb052b72414?w=480&q=72&fm=webp&auto=format"
+                alt="Calles del barrio comunas"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover -mt-8"
+                loading="lazy"
               />
               <img
-                src="https://images.unsplash.com/photo-1551282643-392c82ebb909?w=600&q=80"
-                alt="Barrio colorido"
+                src="https://images.unsplash.com/photo-1762379972556-92fe6dbb4c10?w=480&q=72&fm=webp&auto=format"
+                alt="Barrio de ladera verde"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
+                loading="lazy"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-24 h-24 rounded-2xl bg-accent-DEFAULT/20 -z-10" />

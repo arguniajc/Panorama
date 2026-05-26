@@ -1,5 +1,8 @@
 import type { CommunityMember } from '../../domain/models/CommunityMember'
 
+const avatar = (id: string) =>
+  `https://images.unsplash.com/photo-${id}?w=200&q=80&fm=webp&auto=format&fit=crop&crop=faces`
+
 export const communityMock: CommunityMember[] = [
   {
     id: '1',
@@ -8,7 +11,7 @@ export const communityMock: CommunityMember[] = [
     position: 'presidente',
     phone: '+57 310 555 0101',
     email: 'presidente@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
+    photo: avatar('1507003211169-0a1dd7228f2d'),
     bio: 'Líder comunitario con 12 años de experiencia en gestión barrial. Ingeniero civil, especialista en desarrollo urbano.',
     yearsInRole: 3,
   },
@@ -19,7 +22,7 @@ export const communityMock: CommunityMember[] = [
     position: 'vicepresidente',
     phone: '+57 311 555 0202',
     email: 'vicepresidenta@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80',
+    photo: avatar('1494790108377-be9c29b29330'),
     bio: 'Trabajadora social, especialista en proyectos comunitarios. Ha liderado más de 15 iniciativas de bienestar familiar.',
     yearsInRole: 2,
   },
@@ -30,7 +33,7 @@ export const communityMock: CommunityMember[] = [
     position: 'secretaria',
     phone: '+57 312 555 0303',
     email: 'secretaria@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80',
+    photo: avatar('1438761681033-6461ffad8d80'),
     bio: 'Administradora de empresas con amplia experiencia en gestión documental y comunicaciones institucionales.',
     yearsInRole: 3,
   },
@@ -41,7 +44,7 @@ export const communityMock: CommunityMember[] = [
     position: 'tesorero',
     phone: '+57 313 555 0404',
     email: 'tesorero@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80',
+    photo: avatar('1472099645785-5658abf4ff4e'),
     bio: 'Contador público con 20 años de experiencia. Garantiza la transparencia en el manejo de los recursos comunitarios.',
     yearsInRole: 1,
   },
@@ -52,7 +55,7 @@ export const communityMock: CommunityMember[] = [
     position: 'fiscal',
     phone: '+57 314 555 0505',
     email: 'fiscal@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80',
+    photo: avatar('1534528741775-53994a69daeb'),
     bio: 'Abogada especialista en derecho administrativo. Vela por el cumplimiento de los estatutos y la legalidad de las decisiones.',
     yearsInRole: 2,
   },
@@ -63,7 +66,7 @@ export const communityMock: CommunityMember[] = [
     position: 'vocal',
     phone: '+57 315 555 0606',
     email: 'deportes@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
+    photo: avatar('1500648767791-00dcc994a43e'),
     bio: 'Profesor de educación física. Coordina los programas deportivos y recreativos del barrio para todas las edades.',
     yearsInRole: 2,
   },
@@ -74,7 +77,7 @@ export const communityMock: CommunityMember[] = [
     position: 'lider',
     phone: '+57 316 555 0707',
     email: 'madres@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=80',
+    photo: avatar('1544005313-94ddf0286df2'),
     bio: 'Líder del comité de madres gestantes y primera infancia. Gestiona programas de nutrición y cuidado infantil.',
     yearsInRole: 5,
   },
@@ -85,7 +88,7 @@ export const communityMock: CommunityMember[] = [
     position: 'lider',
     phone: '+57 317 555 0808',
     email: 'ambiente@jac-panorama.com',
-    photo: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80',
+    photo: avatar('1519085360753-af0119f7cbe7'),
     bio: 'Biólogo y ambientalista. Lidera las iniciativas de arborización, reciclaje y cuidado del entorno natural del barrio.',
     yearsInRole: 4,
   },

@@ -33,6 +33,8 @@ export function HeroSection() {
             alt={slide.title}
             className="absolute inset-0 w-full h-full object-cover"
             loading={idx === 0 ? 'eager' : 'lazy'}
+            fetchPriority={idx === 0 ? 'high' : 'low'}
+            decoding={idx === 0 ? 'sync' : 'async'}
           />
           <div className={`absolute inset-0 bg-gradient-to-r ${slide.overlay}`} />
           <div className="absolute inset-0 bg-primary-900/30" />
