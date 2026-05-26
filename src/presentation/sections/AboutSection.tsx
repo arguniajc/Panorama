@@ -36,23 +36,23 @@ export function AboutSection() {
           >
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80"
-                alt="Vista del barrio"
+                src="https://images.unsplash.com/photo-1568632234161-4e8f86cf9da4?w=600&q=80"
+                alt="Vista del barrio de ladera"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
               />
               <img
-                src="https://images.unsplash.com/photo-1527030280862-64139fba04ca?w=600&q=80"
-                alt="Calles del barrio"
+                src="https://images.unsplash.com/photo-1762379972556-92fe6dbb4c10?w=600&q=80"
+                alt="Casas coloridas en la ladera"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover mt-8"
               />
               <img
-                src="https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=600&q=80"
-                alt="Naturaleza"
+                src="https://images.unsplash.com/photo-1520501247332-6fb052b72414?w=600&q=80"
+                alt="Calles del barrio"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover -mt-8"
               />
               <img
-                src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
-                alt="Parque"
+                src="https://images.unsplash.com/photo-1551282643-392c82ebb909?w=600&q=80"
+                alt="Barrio colorido"
                 className="rounded-2xl shadow-lg w-full h-48 object-cover"
               />
             </div>

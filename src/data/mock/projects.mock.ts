@@ -11,7 +11,7 @@ export const projectsMock: Project[] = [
     endDate: '2026-10-31',
     budget: 850000000,
     category: 'infraestructura',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1715503234327-b57d32e5da0f?w=800&q=80',
   },
   {
     id: '2',
@@ -23,7 +23,7 @@ export const projectsMock: Project[] = [
     endDate: '2026-12-31',
     budget: 620000000,
     category: 'infraestructura',
-    image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1560242374-ca6dd3434522?w=800&q=80',
   },
   {
     id: '3',
@@ -35,7 +35,7 @@ export const projectsMock: Project[] = [
     endDate: '2026-02-28',
     budget: 320000000,
     category: 'social',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1599543359278-76676745f1e9?w=800&q=80',
   },
   {
     id: '4',
@@ -71,6 +71,6 @@ export const projectsMock: Project[] = [
     endDate: '2027-08-31',
     budget: 450000000,
     category: 'cultural',
-    image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1534943441045-1009d7cb0bb9?w=800&q=80',
   },
 ]
